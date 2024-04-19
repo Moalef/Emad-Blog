@@ -44,3 +44,50 @@ h2 {
 .pagination {
     margin: 40px 0;
 }
+
+
+label {
+    float: left;
+    clear: both;
+    color: #333;
+    margin-bottom: 4 px;
+}
+
+input, textarea {
+
+    clear: both;
+    float: left;
+    margin: 0 0 10px;
+    background: #ededed;
+    border: 0;
+    padding: 6px 10px;
+    font-size: 12px;
+}
+
+input[type=submit] {
+
+font-weight: bold;
+background: #00abff;
+color: #fff;
+padding: 10px 20px;
+font-size: 14px;
+text-transform: uppercase;
+cursor: pointer;
+}
+
+.errorlist {
+    color: #cc0033;
+    float: left;
+    clear: both;
+    padding-left: 10px;
+}
+
+.comment {
+    padding: 10px;
+}
+
+.comment .info {
+    font-weight: bold;
+    font-size: 12px;
+    color: #666;
+}
